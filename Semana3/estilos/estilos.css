@@ -8,6 +8,7 @@ h1 {
     margin: 100px;
     border-style: solid;
     background-image: url(../imagenes/sheep-1822137_640.jpg);
+    background-attachment: scroll;
 }
 
 #Primer-parrafo {
@@ -15,3 +16,33 @@ h1 {
     border-color: brown;
     border-width: 50px;
 }
+
+img {
+    width: 50%;
+    height: 120px;
+}
+
+table {
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+
+tr {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+td {
+    border-style: solid;
+    border-color: pink;
+    border-width: 5px;
+}
+
+#hola {
+    background-color: cadetblue;
+    border-spacing: 100px;
+}
+
+
