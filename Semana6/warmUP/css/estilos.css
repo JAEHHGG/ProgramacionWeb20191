@@ -1,0 +1,11 @@
+.sapo {
+    width: 50%;
+    transition: ease;
+    transition-duration: 0.5s;
+}
+
+.sapo2 {
+    width: 100%;
+    transition: ease;
+    transition-duration: 0.5s;
+}
