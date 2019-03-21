@@ -27,8 +27,17 @@ function enviar() {
             esperando = true;
         }
     }
-
-
+    campo_texto.value = "";
 }
 
 btn_enviar.addEventListener('click', enviar);
+
+campo_texto = document.getElementById('usser-input');
+
+campo_texto.addEventListener('keydown', function(event){
+    if (event.key === "Enter") {
+        enviar();
+    }else if(event.keyCode === 38){
+        campo_texto.value = pregunta;
+    }
+});
