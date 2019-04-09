@@ -13,7 +13,7 @@
     "krusty" => "ean",
     ];
 
-    if ($_GET['usser'] in $pass){
+    if (isset($pass[$_GET['usser']])){
         if ($pass[$_GET['usser']] == $_GET['pass']){
             echo 'Bienvenido';
         }else{
