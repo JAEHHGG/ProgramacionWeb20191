@@ -8,7 +8,7 @@
     <?php
 
     echo $GET['usser'];
-    echo '<br>'
+    echo '<br>';
     echo $GET['pass'];
 
     ?>
