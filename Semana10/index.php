@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><? echo 'Pagina en php'; ?></h1>
+    <h1><?php echo 'Pagina en php'; ?></h1>
     <h2>Hola cliente</h2>
 </body>
 </html>
