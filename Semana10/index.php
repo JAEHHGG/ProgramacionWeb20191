@@ -8,6 +8,8 @@
     <h1><?php echo 'Pagina en php'; ?></h1>
     <h2>Hola cliente</h2>
 
+    <p>Este es un ejemplo básico de PHP</p>
+
     <br>
 
     <form action="respuesta.php" method="get">
