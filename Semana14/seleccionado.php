@@ -3,7 +3,7 @@
 $usuario = $_GET['user'];
 $seleccion = $_GET['seleccion'];
 
-$archivo = fopen($usuario.'txt', "a");
+$archivo = fopen($usuario.'.txt', "a");
 
 fputs($archivo, $seleccion);
 
