@@ -1,4 +1,4 @@
-<aside>
+<aside class="container">
     <div class="card" style="width: 18rem;">
   <img src="https://picsum.photos/200" class="card-img-top" alt="Imagen Random">
   <div class="card-body">
