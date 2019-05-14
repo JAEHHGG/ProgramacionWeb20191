@@ -23,7 +23,7 @@
                         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../usuario/crear.php">Crear usuario</a>
+                        <a class="nav-link" href="usuario/crear.php">Crear usuario</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.php">Contacto</a>
