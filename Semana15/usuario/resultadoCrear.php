@@ -3,11 +3,11 @@
 <?php
 
     if (isset($_POST['nombre'])){
-        echo '<br>'$_POST['nombre'];
+        echo '<br>'.$_POST['nombre'];
     }
 
     if (isset($_POST['apellido'])){
-        echo '<br>'$_POST['apellido'];
+        echo '<br>'.$_POST['apellido'];
     }
 
 ?>
