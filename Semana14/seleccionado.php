@@ -17,7 +17,7 @@ fclose($archivo);
     <title>Document</title>
 </head>
 <body>
-    <?php
+    <?phpshut
         echo 'se escribió '.$archivo;
     ?>
 </body>
