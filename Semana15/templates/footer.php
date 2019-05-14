@@ -1,16 +1,6 @@
-<aside class="container">
-    <div class="card" style="width: 18rem;">
-  <img src="https://picsum.photos/200" class="card-img-top" alt="Imagen Random">
-  <div class="card-body">
-    <h5 class="card-title">Imagen random al lado</h5>
-    <p class="card-text">Contenido lateral</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
 
-</aside>
 
-<footer>
+<footer class="container">
     Hecho con <i>&#128153;</i> para mi clase de desarrollo web
 </footer>
 
