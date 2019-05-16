@@ -25,7 +25,7 @@ include('../phpresources/dbConection.php');
             echo "Error: " . $sentenciaSQL . "<br>" . $conexion->error;
         }
 
-        $conexion->close()
+        $conexion->close();
 
     }
 
