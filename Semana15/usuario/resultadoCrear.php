@@ -2,27 +2,25 @@
 
 include('../phpresources/dbConection.php');
 
+
+
 ?>
 
 <div class="container">
 
 <?php
 
-    if (isset($_POST['nombre'])){
-        echo '<br>'.$_POST['nombre'];
+    if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email']) && isset($_POST['pass'])){
+        $sentenciaSQL = "INSERT INTO `usuario` ( `nombre`, `apellido`, `email`, `pass`, `activo`) "
+        $sentenciaSQL += "VALUES ( '"
+        $sentenciaSQL += $_POST['nombre']."', '"
+        $sentenciaSQL += $_POST['apellido']"', '"
+        $sentenciaSQL += $_POST['email']"', '"
+        $sentenciaSQL += $_POST['pass']"', 1)";
+
+        echo $sentenciaSQL;
     }
 
-    if (isset($_POST['apellido'])){
-        echo '<br>'.$_POST['apellido'];
-    }
-
-    if (isset($_POST['email'])){
-        echo '<br>'.$_POST['email'];
-    }
-
-    if (isset($_POST['pass'])){
-        echo '<br>'.$_POST['pass'];
-    }
 
 ?>
 </div>
