@@ -1,4 +1,8 @@
-<?php include('../templates/header.php'); ?>
+<?php include('../templates/header.php');
+
+include('../phpresources/dbConection.php');
+
+?>
 
 <div class="container">
 
