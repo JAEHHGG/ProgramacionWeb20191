@@ -19,7 +19,7 @@ include('../phpresources/dbConection.php');
         $sentenciaSQL = $sentenciaSQL."".$_POST['pass']."', 1)'";
 
 
-        if ($conexion->query($sql) === TRUE) {
+        if ($conexion->query($sentenciaSQL) === TRUE) {
             echo "Usuario creado";
         } else {
             echo "Error: " . $sentenciaSQL . "<br>" . $conexion->error;
