@@ -21,7 +21,7 @@ include('../phpresources/dbConection.php');
 
         echo $sentenciaSQL;
 
-        if($conexion -> query($sentenciaSQL);){
+        if($conexion -> query($sentenciaSQL)){
             echo 'Usuario creado'
         }
     }
