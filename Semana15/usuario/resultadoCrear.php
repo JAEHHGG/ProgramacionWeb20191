@@ -13,10 +13,10 @@ include('../phpresources/dbConection.php');
     if (isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email']) && isset($_POST['pass'])){
         $sentenciaSQL = "INSERT INTO `usuario` ( `nombre`, `apellido`, `email`, `pass`, `activo`) ";
         $sentenciaSQL = $sentenciaSQL."VALUES ( '";
-        $sentenciaSQL += $sentenciaSQL.$_POST['nombre']."', '";
-        $sentenciaSQL += $sentenciaSQL.$_POST['apellido']"', '";
-        $sentenciaSQL += $sentenciaSQL.$_POST['email']"', '";
-        $sentenciaSQL += $sentenciaSQL.$_POST['pass']"', 1)";
+        $sentenciaSQL = $sentenciaSQL.$_POST['nombre']."', '";
+        $sentenciaSQL = $sentenciaSQL.$_POST['apellido']"', '";
+        $sentenciaSQL = $sentenciaSQL.$_POST['email']"', '";
+        $sentenciaSQL = $sentenciaSQL.$_POST['pass']"', 1)";
 
         echo $sentenciaSQL;
     }
