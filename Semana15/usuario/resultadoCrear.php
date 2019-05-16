@@ -16,7 +16,7 @@ include('../phpresources/dbConection.php');
         $sentenciaSQL = $sentenciaSQL."".$_POST['nombre']."', '";
         $sentenciaSQL = $sentenciaSQL."".$_POST['apellido']."', '";
         $sentenciaSQL = $sentenciaSQL."".$_POST['email']."', '";
-        $sentenciaSQL = $sentenciaSQL."".$_POST['pass']."', 1)'";
+        $sentenciaSQL = $sentenciaSQL."".$_POST['pass']."', 1)";
 
 
         if ($conexion->query($sentenciaSQL) === TRUE) {
