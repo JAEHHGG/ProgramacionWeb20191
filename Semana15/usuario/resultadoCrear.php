@@ -14,9 +14,9 @@ include('../phpresources/dbConection.php');
         $sentenciaSQL = "INSERT INTO `usuario` ( `nombre`, `apellido`, `email`, `pass`, `activo`) ";
         $sentenciaSQL = $sentenciaSQL."VALUES ( '";
         $sentenciaSQL = $sentenciaSQL."".$_POST['nombre']."', '";
-        $sentenciaSQL = $sentenciaSQL."".$_POST['apellido']"', '";
+        /*$sentenciaSQL = $sentenciaSQL."".$_POST['apellido']"', '";
         $sentenciaSQL = $sentenciaSQL."".$_POST['email']"', '";
-        $sentenciaSQL = $sentenciaSQL."".$_POST['pass']"', 1)";
+        $sentenciaSQL = $sentenciaSQL."".$_POST['pass']"', 1)";*/
 
         echo $sentenciaSQL;
     }
